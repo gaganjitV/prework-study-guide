@@ -7,7 +7,7 @@
     <title>Prework Study Guide</title>
   </head>
   <body>
-    <header id="top1">
+    <header id="top">
       <h1>Prework Study Guide</h1>
       <img src="./assets/bowtie-cat.png" alt="Profile image of cat wearing a bow tie." />
     </header>
@@ -33,9 +33,22 @@
           <ul>
             <li>git status: checks what branch we are currently on</li>
             <li>git checkout -b branch-name: creates a new branch and switches to it</li>
-            <li>git add, commit, and push up the HTML code in a feature branch.</li>
-            <li>open a pull request with my feature branch as the comparison branch and the default branch as the base branch.</li>
-            <li>merge the PR so that the main branch holds the HTML code for the project.</li>
+            <p><strong>How to save changes and puch to github</strong></p>
+            <ol>
+              <li>Make sure your on the main branch <strong>git checkout main</strong> <li>
+              </li>pull down the latest main using <strong>git pull origin main</strong> </li>
+              <li>Create new branch <strong> git checkout -b feature/nameOfbranch</strong> </li>
+              <li>Now make chnages to the file and save them</li>
+              <li>Stage your changed using <strong>git add -A</strong></li>
+              <li>commit them <strong>git commit -m "message"</strong></li>
+              <li>Make sure that our current branch is up to date before opening a pull request <strong>git pull origin main</strong></li>
+              <li>Push up all of our changes by using <strong>git push origin feature/"nameOfbranch"</strong></li>
+              <li>From here you will go to github and lick the "New pull request" </li>
+              <li>Add title and discription </li>
+              <li>CLick Create Pull request</li>
+              <li>Them merge pull request</li>
+            </ol>
+  
 
           </ul>
 
